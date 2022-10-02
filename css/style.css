@@ -1,54 +1,82 @@
 *{
-    margin: 0;
+margin: 0;
 }
 header{
-    background-color: darkgoldenrod;
-    color: beige;
+    background-color: rgb(69, 86, 107);
+    color: aliceblue;
+    text-align: center;
     height: 100px;
-    text-align: center;
 }
-.content{
-    background-color: rgba(184, 135, 11, 0.838);
-    color: beige;
-    height: 200px;
-    text-align: center;
-}
-.sign{
-    background-color: rgba(184, 135, 11, 0.682);
-    color: beige;
+.navigation{
     height: 70px;
-    text-align: center;
-}
-.feature{
     overflow: hidden;
 }
-.feature_one{
-    background-color:rgb(232, 199, 115);
-    color: beige;
-    height: 400px;
-    width: 33.3%;
+.nav_one{
+    background-color: rgba(106, 124, 146, 0.926);
+    color: aliceblue;
     text-align: center;
+    height: 70px;
+    width: 33.3%;
     float: left;
 }
-.feature_two{
-    background-color:rgba(213, 172, 69, 0.836);
-    color: beige;
-    height: 400px;
-    width: 33.3%;
+.nav_two{
+    background-color: rgba(75, 91, 110, 0.926);
+    color: aliceblue;
     text-align: center;
+    height: 70px;
+    width: 33.3%;
     float: left;
 }
-.feature_three{
-    background-color:rgb(232, 199, 115);
-    color: beige;
-    height: 400px;
-    width: 33.3%;
+.nav_three{
+    background-color: rgba(106, 124, 146, 0.926);
+    color: aliceblue;
     text-align: center;
+    height: 70px;
+    width: 33.3%;
     float: left;
+}
+.content{
+    overflow: hidden;
+}
+.left_content{
+    background-color: rgb(189, 255, 127);
+    color: aliceblue;
+    text-align: center;
+    height: 500px;
+    width: 70%;
+    float: left;
+}
+.right_content{
+    background-color: rgb(55, 69, 87);
+    color: aliceblue;
+    text-align: center;
+    height: 500px;
+    width: 30%;
+    float: right;
+}
+.top{
+    background-color: rgba(124, 145, 177, 0.955);
+    color: aliceblue;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+}
+.bottom{
+    background-color: rgba(153, 175, 208, 0.97);
+    color: aliceblue;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+}
+.summary{
+    background-color: rgba(75, 91, 110, 0.926);
+    color: aliceblue;
+    text-align: center;
+    height: 70px;
 }
 footer{
-    background-color: darkgoldenrod;
-    color: beige;
-    height: 100px;
+    background-color:rgb(69, 86, 107);
+    color: aliceblue;
     text-align: center;
+    height: 100px;
 }
